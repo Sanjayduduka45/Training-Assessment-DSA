@@ -15,10 +15,16 @@ def leaders(nums):
     leader=[nums[-1]]
     right=nums[-1]
     for i in range(len(nums)-1,-1,-1):
-        if nums[i]>=right:
+        if nums[i]>right:
             leader.append(nums[i])
             right=nums[i]
     leader.reverse()
     return leader
-nums = [1, 2, 5, 3, 1, 2]
+# nums = [1, 2, 5, 3, 1, 2]
+nums = list(map(int, input().split()))
 print(leaders(nums))
+
+# My Approach is Right-to-Left Traversal
+
+# Time Complexity is O(n)
+# Space Complexity is O(n)

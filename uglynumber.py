@@ -34,3 +34,6 @@ def uglynum(n):
     return n==1
 n=15
 print(uglynum(n))
+
+# Time Complexity is O(logn)
+# Space Complexity is O(1)

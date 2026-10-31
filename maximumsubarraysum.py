@@ -18,7 +18,8 @@ def maxsubarraysum(nums):
         curr_sum=max(nums[i],curr_sum+nums[i])
         max_sum=max(max_sum,curr_sum)
     return max_sum
-nums=[2, 3, 5, -2, 7, -4]
+#nums=[2, 3, 5, -2, 7, -4]
+nums = list(map(int, input().split()))
 print(maxsubarraysum(nums))
 
 # My Approach is Kadens Algorithm
