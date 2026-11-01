@@ -33,6 +33,7 @@ def uglynum(n):
         n=n//5
     return n==1
 n=15
+n=int(input())
 print(uglynum(n))
 
 # Time Complexity is O(logn)

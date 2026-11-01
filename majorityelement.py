@@ -22,7 +22,8 @@ def majority_element(nums):
     for num in nums:
        if freq[num]>len(nums)//2:
            return num
-nums=[2, 2, 1, 3, 2]
+# nums=[2, 2, 1, 3, 2]
+nums=list(map(int,input().split()))
 print(majority_element(nums))
 
 #--> Better Approach
@@ -33,7 +34,8 @@ def majority_element(nums):
         freq[num]=freq.get(num,0)+1
         if freq[num]>n//2:
             return num
-nums=[2, 2, 1, 3, 2]
+# nums=[2, 2, 1, 3, 2]
+nums=list(map(int,input().split()))
 print(majority_element(nums))   
 
 

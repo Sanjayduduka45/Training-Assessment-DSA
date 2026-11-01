@@ -23,7 +23,8 @@ def revpairs(nums):
             if nums[i]>2*nums[j]:
                 count+=1
     return count
-nums = [6, 4, 1, 2, 7]
+# nums = [6, 4, 1, 2, 7]
+nums=list(map(int,input().split()))
 print(revpairs(nums))
 
 

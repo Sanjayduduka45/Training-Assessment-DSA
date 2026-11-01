@@ -32,4 +32,4 @@ print(firstmissingpos(nums))
 
 
 # Time Complexity is O(nlogn)
-# Space Complexity is O(1)
+# Space Complexity is O(n)

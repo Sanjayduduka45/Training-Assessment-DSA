@@ -30,9 +30,11 @@ def mergetwosortedarrays(nums1,nums2,m,n):
         right-=1
         pos-=1
     return nums1
-nums1=[1,2,3,0,0,0]
+# nums1=[1,2,3,0,0,0]
+nums1=list(map(int,input().split()))
 m = 3
-nums2 = [2,5,6]
+nums2=list(map(int,input().split()))
+# nums2 = [2,5,6]
 n = 3
 print(mergetwosortedarrays(nums1,nums2,m,n))
 
