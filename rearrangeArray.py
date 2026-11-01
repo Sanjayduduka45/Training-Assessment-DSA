@@ -26,6 +26,6 @@ def rearrangeArray(nums):
             res[neg]=num
             neg+=2
     return res
-
-nums=list(map(int,input().split()))
+nums=[-2,3,2-1]
+# nums=list(map(int,input().split()))
 print(rearrangeArray(nums))
